@@ -14,7 +14,7 @@ export default function Login() {
       .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
-        console.log("Başarıyla Giriş Yaptınız!!")        
+        console.log("Başarıyla Giriş Yaptınız!!")      
         dispatch(login(user))
                 
       })
